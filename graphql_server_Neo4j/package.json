@@ -1,0 +1,21 @@
+{
+  "name": "graphql_server_neo4j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@neo4j/graphql": "^6.0.0",
+    "graphql": "^16.9.0",
+    "neo4j-driver": "^5.26.0",
+    "nodemon": "^3.1.7"
+  }
+}
